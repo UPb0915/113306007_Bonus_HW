@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+    flex: 0 0 100px; 
+}
+
+input[type="text"], textarea {
+    flex: 1;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none; 
+}
+
+.form-group.inline {
+    width: calc(50% - 10px); 
+    display: inline-block;
+}
+
+.form-group.inline:nth-child(odd) {
+    margin-right: 10px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 4px;
+}
